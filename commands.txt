@@ -1,0 +1,2 @@
+-- filter down to only text and rating
+jq '{reviewText: .reviewText, overall: .overall}' file
